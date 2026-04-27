@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "2GOwAIHCvJ9loUwK7f02eo",
+    "name" : "AC-IICS-REST-API",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "mfSTu0kMVX3cjk9-gt-7635134-2026-04-23T23:01:01.202Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2026-04-27T20:01:29.602Z",
+  "objectRefs" : [ {
+    "id" : "eUOlYQArEiSg3qyqseXUe0",
+    "name" : "SC_IICS-REST-API",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bdoPVm5Y6tMFygl-gt-7609854-2026-04-23T23:01:01.022Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/AMonahan/CAI"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}

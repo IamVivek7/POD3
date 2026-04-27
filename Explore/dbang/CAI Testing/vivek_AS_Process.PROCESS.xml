@@ -1,0 +1,66 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>uBs5Uz3gnKLLsci-gt-7609866-2026-04-23T23:01:01.323Z::pd.xml</types1:EntryId>
+      <types1:Name>vivek_AS_Process</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.agent:NA1_Agent_Win</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>SA_USW3_1</types1:CreatedBy>
+      <types1:CreationDate>2026-04-23T23:01:01Z</types1:CreationDate>
+      <types1:ModifiedBy>SA_USW3_1</types1:ModifiedBy>
+      <types1:ModificationDate>2026-04-23T23:42:00Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
+      <types1:PublishedBy>SA_USW3_1</types1:PublishedBy>
+      <types1:PublicationDate>2026-04-23T23:10:45Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.vivek_AS_Process/vivek_AS_Process.pd.xml</types1:PublishedContributionId>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  GUID="ejYjyXGcp8Lkyte8TAHhSy"
+                  displayName="vivek_AS_Process"
+                  name="vivek_AS_Process"
+                  overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags>.agent:NA1_Agent_Win</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="none">
+               <targetLocation>NA1_Agent_Win</targetLocation>
+               <rest/>
+            </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
+            </extData>
+            <flow id="xaf255014-323e-4c10-9829-093499a35771">
+               <start id="e12b69a60-5ee9-4094-928a-6d00288ed352">
+                  <link id="b7132418c-4962-4244-80ab-fee5b1982354"
+                        targetId="Serviceef9189c8-0854-44de-b68c-269517988fc2"/>
+               </start>
+               <service id="Serviceef9189c8-0854-44de-b68c-269517988fc2">
+                  <title>Login</title>
+                  <serviceName>AC-IICS-REST-API:Login</serviceName>
+                  <serviceGUID>2GOwAIHCvJ9loUwK7f02eo</serviceGUID>
+                  <serviceInput/>
+                  <link id="yba4e1b74-35d7-4f15-be01-4151f7e8d28f"
+                        targetId="end-uf6fec6af-a12b-461d-8445-278b8fc63e7b"/>
+               </service>
+               <end id="end-uf6fec6af-a12b-461d-8445-278b8fc63e7b">
+                  <title>End</title>
+               </end>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>ejYjyXGcp8Lkyte8TAHhSy</types1:GUID>
+      <types1:DisplayName>vivek_AS_Process</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2026-04-27T19:58:46.371Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

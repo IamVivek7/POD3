@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "ejYjyXGcp8Lkyte8TAHhSy",
+    "name" : "vivek_AS_Process",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "uBs5Uz3gnKLLsci-gt-7609866-2026-04-23T23:01:01.323Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2026-04-27T19:58:46.705Z",
+  "objectRefs" : [ {
+    "id" : "2GOwAIHCvJ9loUwK7f02eo",
+    "name" : "AC-IICS-REST-API",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "mfSTu0kMVX3cjk9-gt-7635134-2026-04-23T23:01:01.202Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/AMonahan/CAI"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
